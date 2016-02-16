@@ -1,0 +1,43 @@
+#! /bin/bash
+##-----------------------------------------------------------------------------
+##
+##         Name : install
+##     Synopsis : This script installs inkscape goodies in your
+##                ~/.config/inkscape directory to help with Web Design.
+##       Author : Jose Elera <jelera@gmail.com>
+##        Notes : It has only been tested in:
+##                Ubuntu Linux 14.04 LTS and derivates
+## Last Updated : Tue 16 Feb 2016 04:22:50 PM CST
+##
+## Copyright © 2016 Jose Elera
+## Distributed under terms of the MIT license.
+##
+##-----------------------------------------------------------------------------
+
+#-----------------------------------//
+# => Checking the OS / Linux Distro
+#-----------------------------------//
+os=$(uname)
+
+if [[ ! $os == 'Linux' ]]; then
+	echo "ERROR: This Operating System is not currently supported" 1>&2
+	echo "       Try forking it and implement it" 1>&2
+	exit 1
+fi
+
+inkscape_config_dir=".config/inkscape"
+
+#-----------------------------------------------//
+# => Making a backup of old template and symbols
+#-----------------------------------------------//
+if [[ -d "$HOME/$inkscape_config_dir"  ]]; then
+	cp -r "$HOME/$inkscape_config_dir"  "$HOME/$inkscape_config_dir.old"
+else
+	mkdir -p "$HOME/$inkscape_config_dir"
+fi
+
+#-----------------------------------------------//
+# => Installation
+#-----------------------------------------------//
+cp -r symbols "$HOME/$inkscape_config_dir"
+cp -r templates "$HOME/$inkscape_config_dir"
