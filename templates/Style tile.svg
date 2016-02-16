@@ -1,0 +1,674 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+  Initially created with Inkscape (http://www.inkscape.org/)
+  Modified by hand afterwards
+  @author Todd Wolfson <todd@twolfson.com>
+-->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1020"
+   height="760"
+   id="mainSvg"
+   version="1.1"
+   inkscape:version="0.91 r"
+   sodipodi:docname="Style tile.svg">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1680"
+     inkscape:window-height="896"
+     id="namedview184"
+     showgrid="false"
+     inkscape:zoom="0.73"
+     inkscape:cx="495.66331"
+     inkscape:cy="392.88068"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showguides="true"
+     inkscape:guide-bbox="true" />
+  <metadata
+     id="metadata186">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jose Elera</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs3">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient5101">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop5103" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop5105" />
+    </linearGradient>
+    <linearGradient
+       id="bwVertGradient"
+       x1="82.265458"
+       y1="0"
+       x2="270.6799"
+       y2="0"
+       spreadMethod="pad"
+       gradientTransform="scale(3.7682887,0.26537245)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         stop-color="#333333"
+         stop-opacity="1"
+         id="stop6" />
+      <stop
+         offset="100%"
+         stop-color="#000000"
+         stop-opacity="1"
+         id="stop8" />
+    </linearGradient>
+    <radialGradient
+       id="bwRadialGradient"
+       fx="120.20815"
+       fy="-67.316566"
+       r="237.58788"
+       spreadMethod="pad"
+       gradientTransform="scale(1.4142136,0.70710678)"
+       cx="120.20815"
+       cy="98.994949"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         stop-color="#DFDFDF"
+         stop-opacity="1"
+         id="stop11" />
+      <stop
+         offset="40%"
+         stop-color="#FFFFFF"
+         stop-opacity="1"
+         id="stop13" />
+      <stop
+         offset="100%"
+         stop-color="#FFFFFF"
+         stop-opacity="1"
+         id="stop15" />
+    </radialGradient>
+    <filter
+       id="dropshadow">
+      <!-- stdDeviation is how much to blur -->
+      <feGaussianBlur
+         in="SourceAlpha"
+         stdDeviation="2"
+         id="feGaussianBlur18" />
+      <!-- how much to offset -->
+      <feOffset
+         dx="0"
+         dy="0"
+         result="offsetblur"
+         id="feOffset20" />
+      <feComponentTransfer
+         id="feComponentTransfer22">
+        <feFuncA
+           type="linear"
+           slope="0.5"
+           id="feFuncA24" />
+      </feComponentTransfer>
+      <feMerge
+         id="feMerge26">
+        <!-- this contains the offset blurred image -->
+        <feMergeNode
+           id="feMergeNode28" />
+        <!-- this contains the element that the filter is applied to -->
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode30" />
+      </feMerge>
+    </filter>
+    <filter
+       id="thickDropshadow">
+      <!-- stdDeviation is how much to blur -->
+      <feGaussianBlur
+         in="SourceAlpha"
+         stdDeviation="4"
+         id="feGaussianBlur33" />
+      <!-- how much to offset -->
+      <feOffset
+         dx="0"
+         dy="0"
+         result="offsetblur"
+         id="feOffset35" />
+      <feComponentTransfer
+         id="feComponentTransfer37">
+        <feFuncA
+           type="linear"
+           slope="0.4"
+           id="feFuncA39" />
+      </feComponentTransfer>
+      <feMerge
+         id="feMerge41">
+        <!-- this contains the offset blurred image -->
+        <feMergeNode
+           id="feMergeNode43" />
+        <!-- this contains the element that the filter is applied to -->
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode45" />
+      </feMerge>
+    </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5101"
+       id="linearGradient5107"
+       x1="835.74644"
+       y1="80.046369"
+       x2="907.70932"
+       y2="80.046369"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(216.43836,-145.20548)" />
+  </defs>
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="background"
+     sodipodi:insensitive="true"
+     style="display:inline">
+    <rect
+       id="wrapperBorder"
+       y="0"
+       x="0"
+       height="760"
+       width="1020"
+       style="fill:#ffffff;stroke:#000000" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Header"
+     style="display:inline">
+    <g
+       id="topBarGroup">
+      <rect
+         y="0"
+         x="0"
+         height="50"
+         width="1020"
+         id="topBar"
+         style="display:inline;fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <rect
+         y="0"
+         x="310"
+         height="50"
+         width="710"
+         id="topGradient"
+         style="fill:url(#bwVertGradient)" />
+      <text
+         y="35"
+         x="340"
+         id="projectName"
+         style="font-style:normal;font-weight:normal;font-size:24px;font-family:Sans;letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffffff;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           id="tspan53"
+           style="font-weight:bold">Project Name</tspan></text>
+    </g>
+    <g
+       id="logoGroup">
+      <rect
+         id="logoBg"
+         y="0"
+         x="30"
+         height="140"
+         width="280"
+         style="fill:url(#bwRadialGradient);filter:url(#thickDropshadow)" />
+      <text
+         id="logo"
+         y="80"
+         x="70"
+         style="font-style:normal;font-weight:normal;font-size:34px;font-family:Sans;letter-spacing:0px;word-spacing:0px;display:inline;fill-opacity:1;stroke:none"
+         xml:space="preserve">Logo Here</text>
+    </g>
+    <text
+       id="text58"
+       y="31.164383"
+       x="829.04108"
+       style="font-style:normal;font-weight:normal;font-size:18px;font-family:Sans;letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffffff;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         id="tspan60"
+         style="font-weight:bold;fill:#ffffff;fill-opacity:1">Style Tile</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text62"
+       y="30.136986"
+       x="934.52063"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18px;line-height:125%;font-family:'Bitstream Charter', serif;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1"
+       xml:space="preserve"><tspan
+         style="fill:#ffffff;fill-opacity:1"
+         id="tspan5109">version: 1</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot5111"
+       style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       transform="translate(36.986301,27.39726)"><flowRegion
+         id="flowRegion5113"><rect
+           id="rect5115"
+           width="579.45203"
+           height="64.38356"
+           x="346.57535"
+           y="62.739727" /></flowRegion><flowPara
+         id="flowPara5117"
+         style="font-size:35px;fill:#b3b3b3">The company slogan</flowPara></flowRoot>  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Colors, Textures and Adjectives"
+     style="display:inline">
+    <g
+       id="colorGroup"
+       transform="translate(-27.39726,36.986302)">
+      <text
+         id="colorHeader"
+         y="170"
+         x="40"
+         style="font-style:normal;font-weight:normal;font-size:18px;font-family:Sans;letter-spacing:0px;word-spacing:0px;display:inline;fill-opacity:1;stroke:none"
+         xml:space="preserve">Possible Colors</text>
+      <g
+         id="colors">
+        <g
+           id="g67">
+          <rect
+             id="rect69"
+             y="200"
+             x="40"
+             height="70"
+             width="70"
+             style="fill:#ffffff;filter:url(#dropshadow)" />
+          <rect
+             id="rect71"
+             y="205"
+             x="45"
+             height="60"
+             width="60"
+             style="display:inline;fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        </g>
+        <g
+           id="g73">
+          <rect
+             id="rect75"
+             y="200"
+             x="130"
+             height="70"
+             width="70"
+             style="fill:#ffffff;filter:url(#dropshadow)" />
+          <rect
+             id="rect77"
+             y="205"
+             x="135"
+             height="60"
+             width="60"
+             style="display:inline;fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        </g>
+        <g
+           id="g79">
+          <rect
+             id="rect81"
+             y="200"
+             x="230"
+             height="70"
+             width="70"
+             style="fill:#ffffff;filter:url(#dropshadow)" />
+          <rect
+             id="rect83"
+             y="205"
+             x="235"
+             height="60"
+             width="60"
+             style="display:inline;fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        </g>
+        <g
+           id="g85">
+          <rect
+             id="rect87"
+             y="200"
+             x="330"
+             height="70"
+             width="70"
+             style="fill:#ffffff;filter:url(#dropshadow)" />
+          <rect
+             id="rect89"
+             y="205"
+             x="335"
+             height="60"
+             width="60"
+             style="display:inline;fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        </g>
+        <g
+           id="g91">
+          <rect
+             id="rect93"
+             y="200"
+             x="430"
+             height="70"
+             width="70"
+             style="fill:#ffffff;filter:url(#dropshadow)" />
+          <rect
+             id="rect95"
+             y="205"
+             x="435"
+             height="60"
+             width="60"
+             style="display:inline;fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        </g>
+      </g>
+    </g>
+    <g
+       id="textureGroup"
+       transform="translate(-20.547945,23.287671)">
+      <g
+         id="g5121"
+         transform="translate(-9.5890411,4.109589)">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:16px;font-family:Sans;letter-spacing:0px;word-spacing:0px;display:inline;fill-opacity:1;stroke:none"
+           x="42.739727"
+           y="322.73972"
+           id="textureHeader">Textures</text>
+        <g
+           id="textures">
+          <g
+             id="g100">
+            <rect
+               style="fill:#ffffff;filter:url(#dropshadow)"
+               width="140"
+               height="140"
+               x="40"
+               y="350"
+               id="rect102" />
+            <rect
+               style="display:inline;fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+               width="130"
+               height="130"
+               x="45"
+               y="355"
+               id="rect104" />
+          </g>
+          <g
+             id="g106">
+            <rect
+               style="fill:#ffffff;filter:url(#dropshadow)"
+               width="140"
+               height="140"
+               x="200"
+               y="350"
+               id="rect108" />
+            <rect
+               style="display:inline;fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+               width="130"
+               height="130"
+               x="205"
+               y="355"
+               id="rect110" />
+          </g>
+          <g
+             id="g112">
+            <rect
+               style="fill:#ffffff;filter:url(#dropshadow)"
+               width="140"
+               height="140"
+               x="360"
+               y="350"
+               id="rect114" />
+            <rect
+               style="display:inline;fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+               width="130"
+               height="130"
+               x="365"
+               y="355"
+               id="rect116" />
+          </g>
+        </g>
+      </g>
+    </g>
+    <g
+       id="g4281"
+       transform="translate(-230.13699,200)">
+      <rect
+         style="display:inline;fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         width="220"
+         height="45"
+         x="1013.7592"
+         y="339.46921"
+         id="rect121" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:11px;font-family:Sans;letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffffff;fill-opacity:1;stroke:none"
+         x="1067.3529"
+         y="369.11765"
+         id="text123"><tspan
+           style="font-size:20px"
+           id="tspan4276">Learn More</tspan></text>
+    </g>
+    <g
+       id="g125"
+       transform="translate(754.41176,14.705882)">
+      <g
+         id="g4288"
+         transform="translate(-249.31507,67.123288)">
+        <rect
+           id="rect127"
+           y="525"
+           x="280"
+           height="45"
+           width="220"
+           style="display:inline;fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        <text
+           id="text129"
+           y="552.32788"
+           x="325.69519"
+           style="font-style:normal;font-weight:normal;font-size:11px;font-family:Sans;letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffffff;fill-opacity:1;stroke:none"
+           xml:space="preserve"><tspan
+             id="tspan4286"
+             style="font-size:17.5px">Sample button</tspan></text>
+      </g>
+    </g>
+    <g
+       id="adjectiveGroup"
+       transform="translate(-505.96601,11.642287)">
+      <text
+         id="ajectiveHeader"
+         y="550"
+         x="520"
+         style="font-style:normal;font-weight:normal;font-size:15px;font-family:Sans;letter-spacing:0px;word-spacing:0px;display:inline;fill-opacity:1;stroke:none"
+         xml:space="preserve">Adjectives</text>
+      <g
+         id="adjectives">
+        <text
+           id="text170"
+           y="600"
+           x="520"
+           style="font-style:normal;font-weight:normal;font-size:32px;font-family:Sans;letter-spacing:0px;word-spacing:0px;display:inline;fill-opacity:1;stroke:none"
+           xml:space="preserve">Lorem</text>
+        <text
+           id="text172"
+           y="600"
+           x="660"
+           style="font-style:normal;font-weight:normal;font-size:32px;font-family:Sans;letter-spacing:0px;word-spacing:0px;display:inline;fill-opacity:1;stroke:none"
+           xml:space="preserve">Ipsum</text>
+        <text
+           id="text174"
+           y="600"
+           x="820"
+           style="font-style:normal;font-weight:normal;font-size:32px;font-family:Sans;letter-spacing:0px;word-spacing:0px;display:inline;fill-opacity:1;stroke:none"
+           xml:space="preserve">Dolor</text>
+        <text
+           id="text176"
+           y="650"
+           x="520"
+           style="font-style:normal;font-weight:normal;font-size:32px;font-family:Sans;letter-spacing:0px;word-spacing:0px;display:inline;fill-opacity:1;stroke:none"
+           xml:space="preserve">Sit</text>
+        <text
+           id="text178"
+           y="650"
+           x="660"
+           style="font-style:normal;font-weight:normal;font-size:32px;font-family:Sans;letter-spacing:0px;word-spacing:0px;display:inline;fill-opacity:1;stroke:none"
+           xml:space="preserve">Amet</text>
+        <text
+           id="text180"
+           y="650"
+           x="820"
+           style="font-style:normal;font-weight:normal;font-size:32px;font-family:Sans;letter-spacing:0px;word-spacing:0px;display:inline;fill-opacity:1;stroke:none"
+           xml:space="preserve">Magna</text>
+      </g>
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="Body"
+     style="display:inline">
+    <g
+       id="headerGroup">
+      <text
+         id="text139"
+         y="210"
+         x="520"
+         style="font-style:normal;font-weight:normal;font-size:28px;font-family:Sans;letter-spacing:0px;word-spacing:0px;display:inline;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           id="tspan141"
+           style="font-weight:bold;font-size:30px">This is a Heading &lt;h1&gt;</tspan></text>
+      <text
+         id="text143"
+         y="230"
+         x="520"
+         style="font-style:normal;font-weight:normal;font-size:11px;font-family:Sans;letter-spacing:0px;word-spacing:0px;display:inline;fill:#666666;fill-opacity:1;stroke:none"
+         xml:space="preserve">Font: Name #hexcode</text>
+    </g>
+    <g
+       id="g3592"
+       transform="translate(-24.358488,4.8716976)">
+      <text
+         id="text146"
+         y="265.25659"
+         x="544.35846"
+         style="font-style:normal;font-weight:normal;font-size:22px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;display:inline;fill-opacity:1;stroke:none"
+         xml:space="preserve"
+         sodipodi:linespacing="125%"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.5px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';text-align:start;writing-mode:lr-tb;text-anchor:start"
+           id="tspan5134">This is a Sub Heading &lt;h2&gt;</tspan></text>
+      <text
+         id="text148"
+         y="286.49939"
+         x="544.35846"
+         style="font-style:normal;font-weight:normal;font-size:11px;font-family:Sans;letter-spacing:0px;word-spacing:0px;display:inline;fill:#666666;fill-opacity:1;stroke:none"
+         xml:space="preserve">Font: Name #hexcode</text>
+    </g>
+    <text
+       id="text165"
+       y="505.80145"
+       x="794.79926"
+       style="font-style:normal;font-weight:normal;font-size:11px;font-family:Sans;letter-spacing:0px;word-spacing:0px;display:inline;fill:#0000ff;fill-opacity:1;stroke:none"
+       xml:space="preserve">This is an example of a Text Link »</text>
+    <flowRoot
+       style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="flowRoot3640"
+       xml:space="preserve"
+       transform="translate(-201.83973,425.56702)"><flowRegion
+         id="flowRegion3642"><rect
+           y="631.71198"
+           x="561.86914"
+           height="215.97859"
+           width="344.26663"
+           id="rect3644" /></flowRegion><flowPara
+         id="flowPara3646" /></flowRoot>    <g
+       id="g3978"
+       transform="translate(-20.957379,-89.602195)">
+      <text
+         id="text163"
+         y="783.46204"
+         x="542.33722"
+         style="font-style:normal;font-weight:normal;font-size:11px;font-family:Sans;letter-spacing:0px;word-spacing:0px;display:inline;fill:#666666;fill-opacity:1;stroke:none"
+         xml:space="preserve">Font: Name #hexcode</text>
+      <flowRoot
+         transform="translate(8.6924971,-65.955473)"
+         xml:space="preserve"
+         id="flowRoot3648"
+         style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"><flowRegion
+           id="flowRegion3650"><rect
+             id="rect3652"
+             width="247.11113"
+             height="227.86833"
+             x="531.01501"
+             y="610.60126" /></flowRegion><flowPara
+           id="flowPara3654" /><flowPara
+           style="font-size:12.5px;line-height:130.99999428%;text-align:start;text-anchor:start"
+           id="flowPara3787">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas viverra. Nam pharetra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</flowPara><flowPara
+           id="flowPara3974"
+           style="font-size:12.5px;line-height:130.99999428%;text-align:start;text-anchor:start" /><flowPara
+           id="flowPara3976"
+           style="font-size:12.5px;line-height:130.99999428%;text-align:start;text-anchor:start">Vivamus eu orci. Maecenas convallis dui. Donec sit amet enim. Integer accumsan.Nam pharetra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</flowPara></flowRoot>    </g>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3988"
+       style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       transform="translate(-12.738199,9.7934539)"><flowRegion
+         id="flowRegion3990"><rect
+           id="rect3992"
+           width="498.00558"
+           height="64.645477"
+           x="520.58826"
+           y="371.76471" /></flowRegion><flowPara
+         id="flowPara4113"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:'Droid Serif';-inkscape-font-specification:'Droid Serif, Italic';text-align:center;writing-mode:lr-tb;text-anchor:middle">You have to learn the rules of the game. And then you have to play better than anyone else.</flowPara><flowPara
+         id="flowPara4264"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:'Droid Serif';-inkscape-font-specification:'Droid Serif, Italic';text-align:center;writing-mode:lr-tb;text-anchor:middle">-- Albert Einstein</flowPara><flowPara
+         id="flowPara4266"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:'Droid Serif';-inkscape-font-specification:'Droid Serif, Italic';text-align:center;writing-mode:lr-tb;text-anchor:middle" /><flowPara
+         id="flowPara4268"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:'Droid Serif';-inkscape-font-specification:'Droid Serif, Italic';text-align:center;writing-mode:lr-tb;text-anchor:middle">Read more at http://www.brainyquote.com/quotes/authors/a/albert_einstein.html#wFghY5otxO5XLreR.99</flowPara></flowRoot>    <g
+       transform="translate(-25.92499,123.77644)"
+       id="g3592-1">
+      <g
+         id="g3635"
+         transform="translate(0,-60.08427)">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:22px;font-family:Sans;letter-spacing:0px;word-spacing:0px;display:inline;fill-opacity:1;stroke:none"
+           x="544.35846"
+           y="265.25659"
+           id="text146-4"><tspan
+             id="tspan3633"
+             style="font-size:20px">This is an Example of a Sub Heading &lt;h3&gt;</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:11px;font-family:Sans;letter-spacing:0px;word-spacing:0px;display:inline;fill:#666666;fill-opacity:1;stroke:none"
+           x="544.35846"
+           y="286.49939"
+           id="text148-1">Font: Name #hexcode</text>
+      </g>
+    </g>
+  </g>
+</svg>
